@@ -2,11 +2,11 @@
 
 ![logo](images/logo.png)
 
-### Njeve, meaning "cold" in Kenyan slang, is your go-to app for staying informed about the weather.
+### Your personal safe haven, right in your pocket. Download the Champe app.
 
-This app provides real-time weather updates, keeping you prepared for whatever
-Mother Nature throws your way. Plus, Njeve's handy offline features ensure you have access
-to the latest forecast, even without an internet connection.
+Champe is a revolutionary mobile app designed to provide accessible and personalized
+mental health support. Champe is a Kenyan slang term derived from "champion," 
+Champe symbolizes a personal guide and supporter on your journey to well-being.
 
 ## Project Screenshots
 
@@ -29,44 +29,76 @@ to the latest forecast, even without an internet connection.
 | ![Screenshot 16](images/screenshot/16.jpg) | ![Screenshot 17](images/screenshot/17.jpg) | ![Screenshot 18](images/screenshot/18.jpg) | ![Screenshot 19](images/screenshot/19.jpg) | ![Screenshot 20](images/screenshot/20.jpg) |
 
 
+## Key Challenges Identified
+
+**Limited Access:** A significant portion of the population, including youth, 
+women, vulnerable groups, and the general population, lack access to mental health care.
+**Lack of Mental Health Education:** There is a deficiency in mental health education, 
+leading to a lack of understanding, awareness, and stigma reduction.
+**High Cost of Therapy:** The cost of professional therapy is prohibitive for many 
+individuals, limiting their ability to seek help.
+**Fear of Stigma:** The fear of social stigma associated with mental health issues 
+prevents many people from seeking treatment.
+
+## Potential Root Causes
+
+**Inadequate infrastructure:** Limited availability of mental health professionals and 
+facilities, especially in rural areas.
+**Cultural barriers:** Societal stigma and negative attitudes towards mental health.
+**Economic constraints:** High cost of living and limited access to healthcare insurance.
+**Lack of awareness and understanding:** Insufficient education and information about 
+mental health.
+
+## Potential Impact
+
+**Increased prevalence of mental health disorders:** Untreated mental health conditions 
+can worsen over time, leading to increased suffering and disability.
+**Reduced productivity and economic loss:** Mental health issues can affect individuals' 
+ability to work and participate fully in society.
+**Social isolation and strained relationships:** Mental health problems can lead to social withdrawal and difficulties in maintaining relationships.
+
+
+## Proposed Solutions
+
+Given the identified challenges in mental health care access in Kenya, Champe can offer several innovative solutions:
+
+### 1. Leverage Technology for Accessibility:
+   **Remote Access:** Champe's app-based platform ensures accessibility from anywhere, 
+   breaking down geographical barriers.
+   **Offline Mode:** Enable offline functionality for users in areas with limited 
+   internet connectivity.
+### 2. Promote Mental Health Education:
+   **Integrated Educational Content:** Incorporate articles, videos, and quizzes to 
+   educate users about mental health conditions, coping mechanisms, and self-care strategies.
+   **Community Engagement:** Facilitate online communities or support groups where users can share experiences and learn from others.
+### 3. Reduce Cost Barriers:
+   **Tiered Pricing:** Offer different subscription plans to accommodate various budgets.
+   **Partnerships with Healthcare Providers:** Collaborate with healthcare providers to 
+   offer bundled services or discounts.
+   **24/7 Chatbot Support (Linda):** Introduce a free 24/7 chatbot named Linda to provide 
+   basic mental health support, information, and resources. Linda can serve as a 
+   first point of contact, offering immediate assistance and reducing the need for 
+   costly therapy sessions in all cases.
+### 4. Address Stigma and Promote Acceptance:
+   **Anonymous and Confidential Services:** Ensure user privacy and confidentiality to 
+   reduce the fear of stigma.
+   **Success Stories:** Share positive stories of individuals who have benefited from 
+   mental health support to challenge negative stereotypes.
+   **Educate Healthcare Professionals:** Collaborate with healthcare providers to raise 
+   awareness about mental health and reduce stigma within the medical community.
+
 
 ## Key Features
 
-To improve the user experience and reduce data usage, the app implements the following features:
+**AI-powered chatbot:** 24/7 support, answering questions, offering guidance, and 
+providing helpful tips. Our chatbot is designed to be empathetic, understanding, and 
+responsive, offering a sense of companionship and support.
+**Personalized mental health assessments:** Tailored support strategies based on 
+your unique needs. Champe uses advanced algorithms to analyze your responses and 
+provide personalized recommendations, ensuring that the support you receive is 
+relevant and effective.
+**Therapist scheduling:** Seamlessly connect with qualified therapists. Champe simplifies 
+the process of finding a suitable therapist by connecting you with professionals in 
+your area who specialize in various mental health conditions.
 
-- **Offline data caching:** Weather data is cached for 5 hours after it's retrieved,
-  allowing users to interact with the app even without an internet connection.
-  This saves users data by displaying the most recent data available.
-- **Refresh option:** Users can manually refresh the data by clicking the arrow next
-  to their address, ensuring they have the latest information whenever they need it.
-- **Limited Hourly Forecast:** Only displays upcoming hours for the weather forecast.
 
-### Benefits:
-
-- **Reduced data consumption:** By caching data, users can avoid unnecessary data downloads,
-  especially beneficial for those with limited data plans.
-- **Improved user experience:** Offline data access allows users to view weather information
-  even when offline.
-- **Cost savings:** Reduced API calls lead to lower subscription costs for the app.
-- **Reduced Scrolling:** Saves users time by focusing on relevant weather information for the coming hours.
-
-## Download Njeve
-- [Download From Google Drive](https://drive.google.com/file/d/1v7HPINARBm1BpcrURCD9UdW9H6RvFtwe/view?usp=sharing)
-- [Download From Diawi](https://i.diawi.com/vqGzg3)
-
-## Weather Api
-Weather data is retrieved from the **Visual Crossing Weather API**.
-- [Tap To View Nyeri Weather Forecast](https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/nyeri%2CK?unitGroup=us&key=TURRDRRQ9UP5GZZ79YTSG8PMF)
-
-## Dependencies
-This app utilizes the following external libraries to provide various functionalities:
-
-- **shared_preferences:** Enables storing and retrieving persistent data on the device.
-- **smooth_page_indicator:** Provides a visual indicator for navigating through pages or items. (Version: ^1.0.0+2)
-- **permission_handler:** Manages runtime permissions required by the app on Android devices. (Version: ^8.3.0)
-- **geolocator:** Facilitates accessing the device's location information. (Version: ^8.0.1)
-- **intl:** Offers internationalization and localization support for handling different languages and formats. (Version: ^0.17.0)
-- **lottie:** Enables displaying animated Lottie animations within the app. (Version: ^1.2.1)
-- **geocoding:** Assists with converting addresses or locations into geographical coordinates. (Version: ^3.0.0)
-- **http:** Provides a client for making HTTP requests to web servers. (Version: ^0.13.5)
-- **loading_animation_widget:** (Optional) Likely a custom package for handling loading animations within the app. (Version: ^1.2.0+2)
