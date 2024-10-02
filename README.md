@@ -1,6 +1,6 @@
 # 🔖CHAMPE
 
-![logo](images/screenshot/logo.png)
+![logo](images/logo.png)
 
 ### Njeve, meaning "cold" in Kenyan slang, is your go-to app for staying informed about the weather.
 
