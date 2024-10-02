@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "962155010783",
+    "project_id": "champe-2a77b",
+    "storage_bucket": "champe-2a77b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962155010783:android:50146541116d24d510676a",
+        "android_client_info": {
+          "package_name": "com.gabina.champe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTZVCOxrtriyWLHOv4NbMeGyML3wO57hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
